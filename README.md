@@ -3,9 +3,9 @@
 [TP1](docs/tp1_enunciado.pdf) de Processamento Digital de Imagens do 
 DCC/UFMG em 2019/01 do grupo composto por:
 
-- [Douglas Ludgério](github.com/douglaslud)
-- [Flávio Coutinho](github.com/fegemo)
-- [Ricardo de Oliveira](github.com/Tsuchiryu)
+- [Douglas Ludgério](https://github.com/douglaslud)
+- [Flávio Coutinho](https://github.com/fegemo)
+- [Ricardo de Oliveira](https://github.com/Tsuchiryu)
 
 ## Resultado final
 
