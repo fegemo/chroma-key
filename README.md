@@ -1,6 +1,6 @@
 # Chroma key
 
-[TP1](docs/tp1_enunciado.pdf) de Processamento Digital de Imagens do 
+[TP1](docs/tp1_enunciado.pdf) de Processamento Digital de Imagens do
 DCC/UFMG em 2019/01 do grupo composto por:
 
 - [Douglas Ludgério](https://github.com/douglaslud)
@@ -14,13 +14,15 @@ DCC/UFMG em 2019/01 do grupo composto por:
 ## Tarefas
 
 - [x] Criar um repositório
-- [ ] Escolher imagens
-- [ ] Fazer uma montagem no photoshop para servir de referência
+- [x] Escolher imagens
+- [x] Fazer uma montagem no photoshop para servir de referência
 - [ ] Definir as operações que serão usadas
     - [ ] Operações radiométricas
     - [ ] Transformações geométricas
+      - Escala, translação, rotação e warping
     - [ ] Filtros
-- [ ] Implementar operação de _chroma key_
+- [x] Implementar operação de _chroma key_
+- [ ] Implementar combinação de imagens
 - [ ] Implementar transformações geométricas (posicionar/escalar/rotacionar elementos)
 - [ ] Implementar operações radiométricas escolhidas
 - [ ] Implementar filtros escolhidos
@@ -30,7 +32,7 @@ DCC/UFMG em 2019/01 do grupo composto por:
 Opcionais:
 
 - [ ] Detecção automática da cor do _chroma key_
-  - Ideia: montar um histograma apenas dos pixels da borda e ver qual o(s) bin(s) 
+  - Ideia: montar um histograma apenas dos pixels da borda e ver qual o(s) bin(s)
     com maior quantidade.
 - [ ] Determinação da iluminação das imagens
   - Ideia: usar modelo de iluminação lambertiana para inferir direção da iluminação. Paper [A novel method for detecting light source for digital images forensic](docs/detect-light-sources.pdf).
@@ -40,4 +42,3 @@ Opcionais:
     - [ ] Gerar um mapa de normais
     - [ ] Representar uma fonte de luz
     - [ ] Sombrear objetos de acordo com fonte de luz e normais
-
