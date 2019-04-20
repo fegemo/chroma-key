@@ -16,11 +16,13 @@ DCC/UFMG em 2019/01 do grupo composto por:
 - [x] Criar um repositório
 - [x] Escolher imagens
 - [x] Fazer uma montagem no photoshop para servir de referência
-- [ ] Definir as operações que serão usadas
-    - [ ] Operações radiométricas
-    - [ ] Transformações geométricas
-      - Escala, translação, rotação e warping
-    - [ ] Filtros
+- [x] Definir as operações que serão usadas
+    - [x] Operações radiométricas
+      - Dessaturação, opacidade
+    - [x] Transformações geométricas
+      - Escala, translação, rotação e _warping_
+    - [x] Filtros
+      - Borragem
 - [x] Implementar operação de _chroma key_
 - [x] Implementar combinação de imagens
 - [ ] Implementar transformações geométricas (posicionar/escalar/rotacionar elementos)
