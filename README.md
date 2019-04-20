@@ -22,10 +22,17 @@ DCC/UFMG em 2019/01 do grupo composto por:
       - Escala, translação, rotação e warping
     - [ ] Filtros
 - [x] Implementar operação de _chroma key_
-- [ ] Implementar combinação de imagens
+- [x] Implementar combinação de imagens
 - [ ] Implementar transformações geométricas (posicionar/escalar/rotacionar elementos)
+  - [x] Translação
+  - [x] Escala
+  - [ ] Rotação
+  - [ ] _Warping_
 - [ ] Implementar operações radiométricas escolhidas
+  - [x] Dessaturação
+  - [ ] Transparência
 - [ ] Implementar filtros escolhidos
+  - [x] Borragem
 - [ ] Gerar documentação explicando o que/como foi feito
 - [ ] Publicar documentação
 
