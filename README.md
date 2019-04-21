@@ -29,11 +29,12 @@ DCC/UFMG em 2019/01 do grupo composto por:
   - [x] Translação
   - [x] Escala
   - [ ] Rotação
-  - [ ] _Warping_
-- [ ] Implementar operações radiométricas escolhidas
+  - [x] _Warping_ do raio trator
+  - [ ] _Warping_ do salnorabo
+- [x] Implementar operações radiométricas escolhidas
   - [x] Dessaturação
-  - [ ] Transparência
-- [ ] Implementar filtros escolhidos
+  - [x] Transparência
+- [x] Implementar filtros escolhidos
   - [x] Borragem
 - [ ] Gerar documentação explicando o que/como foi feito
 - [ ] Publicar documentação
