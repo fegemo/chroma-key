@@ -49,6 +49,7 @@ Opcionais:
   - Ideia: usar modelo de iluminação lambertiana para inferir direção da iluminação. Paper [A novel method for detecting light source for digital images forensic](docs/detect-light-sources.pdf).
 - [ ] Projeção de sombra dos objetos
     - Ideia: desenhar a imagem sem saturação e com transparência projetada de acordo com posição da luz, depois desenhar o objeto mesmo.
+    - [x] Implementação simples, sem projeção nem nada
 - [ ] Iluminação dinâmica da cena
     - [ ] Gerar um mapa de normais
     - [ ] Representar uma fonte de luz
