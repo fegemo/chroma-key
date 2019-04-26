@@ -18,22 +18,23 @@ DCC/UFMG em 2019/01 do grupo composto por:
 - [x] Fazer uma montagem no photoshop para servir de referência
 - [x] Definir as operações que serão usadas
     - [x] Operações radiométricas
-      - Dessaturação, opacidade
+      - Dessaturação, opacidade, colorização
     - [x] Transformações geométricas
-      - Escala, translação, rotação e _warping_
+      - Escala, translação, rotação e _warping_ com malha poligonal
     - [x] Filtros
       - Borragem
 - [x] Implementar operação de _chroma key_
 - [x] Implementar combinação de imagens
-- [ ] Implementar transformações geométricas (posicionar/escalar/rotacionar elementos)
+- [x] Implementar transformações geométricas (posicionar/escalar/rotacionar elementos)
   - [x] Translação
   - [x] Escala
-  - [ ] Rotação
+  - [x] Rotação
   - [x] _Warping_ do raio trator
-  - [ ] _Warping_ do salnorabo
+  - [x] _Warping_ do salnorabo
 - [x] Implementar operações radiométricas escolhidas
   - [x] Dessaturação
   - [x] Transparência
+  - [x] Colorização
 - [x] Implementar filtros escolhidos
   - [x] Borragem
 - [ ] Gerar documentação explicando o que/como foi feito
