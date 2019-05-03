@@ -22,7 +22,7 @@ DCC/UFMG em 2019/01 do grupo composto por:
     - [x] Transformações geométricas
       - Escala, translação, rotação e _warping_ com malha poligonal
     - [x] Filtros
-      - Borragem
+      - Borragem, detecção de borda
 - [x] Implementar operação de _chroma key_
 - [x] Implementar combinação de imagens
 - [x] Implementar transformações geométricas (posicionar/escalar/rotacionar elementos)
@@ -36,7 +36,11 @@ DCC/UFMG em 2019/01 do grupo composto por:
   - [x] Transparência
   - [x] Colorização
 - [x] Implementar filtros escolhidos
-  - [x] Borragem
+  - [x] Borragem gaussiana
+  - [x] Borragem por movimento
+  - [x] Prewitt
+- [x] Operações morfológicas
+  - [x] Dilatação
 - [ ] Gerar documentação explicando o que/como foi feito
 - [ ] Publicar documentação
 
@@ -47,10 +51,10 @@ Opcionais:
     com maior quantidade.
 - [ ] Determinação da iluminação das imagens
   - Ideia: usar modelo de iluminação lambertiana para inferir direção da iluminação. Paper [A novel method for detecting light source for digital images forensic](docs/detect-light-sources.pdf).
-- [ ] Projeção de sombra dos objetos
+- [x] Projeção de sombra dos objetos
     - Ideia: desenhar a imagem sem saturação e com transparência projetada de acordo com posição da luz, depois desenhar o objeto mesmo.
     - [x] Implementação simples, sem projeção nem nada
 - [ ] Iluminação dinâmica da cena
     - [ ] Gerar um mapa de normais
     - [ ] Representar uma fonte de luz
-    - [ ] Sombrear objetos de acordo com fonte de luz e normais
+    - [x] Sombrear objetos de acordo com fonte de luz e normais
