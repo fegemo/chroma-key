@@ -9,52 +9,38 @@ DCC/UFMG em 2019/01 do grupo composto por:
 
 ## Resultado final
 
-...
+![Foto de um astronauta na lua, com um disco voador abduzindo um porco e uma latinha de pepsi pisada no chão](what-rly-happened-on-the-moon.png)
 
-## Tarefas
+## Documentação
 
-- [x] Criar um repositório
-- [x] Escolher imagens
-- [x] Fazer uma montagem no photoshop para servir de referência
-- [x] Definir as operações que serão usadas
-    - [x] Operações radiométricas
-      - Dessaturação, opacidade, colorização
-    - [x] Transformações geométricas
-      - Escala, translação, rotação e _warping_ com malha poligonal
-    - [x] Filtros
-      - Borragem, detecção de borda
-- [x] Implementar operação de _chroma key_
-- [x] Implementar combinação de imagens
-- [x] Implementar transformações geométricas (posicionar/escalar/rotacionar elementos)
-  - [x] Translação
-  - [x] Escala
-  - [x] Rotação
-  - [x] _Warping_ do raio trator
-  - [x] _Warping_ do salnorabo
-- [x] Implementar operações radiométricas escolhidas
+Veja aqui [o que foi feito e como][explicacao], e conheça a verdade
+secreta sobre a missão Apollo 17.
+
+[![](docs/explicacao.png)][explicacao]
+
+[explicacao]: verdade.ipynb
+
+## Itens implementados
+
+- [x] Substituição de cor por transparência
+- [x] Mesclagem de imagens
+- [x] Operações radiométricas
   - [x] Dessaturação
   - [x] Transparência
   - [x] Colorização
-- [x] Implementar filtros escolhidos
+- [x] Transformações geométricas
+  - [x] Translação
+  - [x] Escala
+  - [x] Rotação
+  - [x] (extra) _Warping_ do raio trator (transformação projetiva)
+  - [x] (extra) _Warping_ do alien (decomposição em malha poligonal)
+- [x] Operações convolucionais
+  - [x] Detecção de borda com Prewitt
   - [x] Borragem gaussiana
-  - [x] Borragem por movimento
-  - [x] Prewitt
-- [x] Operações morfológicas
+  - [x] (extra) Borragem por movimento
+- [x] (extra) Operações morfológicas
   - [x] Dilatação
-- [ ] Gerar documentação explicando o que/como foi feito
-- [ ] Publicar documentação
-
-Opcionais:
-
-- [ ] Detecção automática da cor do _chroma key_
-  - Ideia: montar um histograma apenas dos pixels da borda e ver qual o(s) bin(s)
-    com maior quantidade.
-- [ ] Determinação da iluminação das imagens
-  - Ideia: usar modelo de iluminação lambertiana para inferir direção da iluminação. Paper [A novel method for detecting light source for digital images forensic](docs/detect-light-sources.pdf).
-- [x] Projeção de sombra dos objetos
-    - Ideia: desenhar a imagem sem saturação e com transparência projetada de acordo com posição da luz, depois desenhar o objeto mesmo.
-    - [x] Implementação simples, sem projeção nem nada
-- [ ] Iluminação dinâmica da cena
-    - [ ] Gerar um mapa de normais
-    - [ ] Representar uma fonte de luz
-    - [x] Sombrear objetos de acordo com fonte de luz e normais
+- [x] (extra) Texturas procedurais
+  - [x] Gradiente abaulado
+- [x] (extra) Sombreamento para simular iluminação da cena
+- [x] (extra) Projeção de sombras
